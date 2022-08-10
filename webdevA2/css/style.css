@@ -70,6 +70,19 @@ body
     display: none;
 }
 
+/* .icon
+{
+    height: 100px;
+    width: 100%;
+    background-color: blue;
+} */
+
+.icon img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
 
 .box1
 {
@@ -158,6 +171,8 @@ body
     display: block;
     background-color: antiquewhite;
     width: 10%;
+    /*height: 10%;*/
+    /* overflow: hidden; */
   }
   
 .menu{
